@@ -12,8 +12,6 @@
             margin: 0;
             box-sizing: border-box;
         }
-      
-
         .card-1 {
             display: flex;
             justify-content: space-evenly;
@@ -40,10 +38,13 @@
             
        
         .contact {
-            margin: auto;
+            margin: 140px 0px;
+         
+          
         }
         .contact a {
             text-decoration: none;
+
 
             
         }
@@ -57,19 +58,15 @@
         footer p {
             margin: 20px;
         }
-        
-       
-       
-      
-        
-    
     
 
-
-         @media screen and (max-width: 610px) {
+         @media screen and (max-width: 730px) {
             .card-1 {
                 display: block;
               
+            }
+            .card .border .div-b {
+              margin-bottom: 5px;
             }
   
             .card {
@@ -79,9 +76,19 @@
             width: 70%;
             margin: auto;
         }
+        .carousel-item  img{
+          height: 400px;
+
+        }
            
            
         }
+        @media screen and (min-width: 660px ) {
+          .carousel-item img {
+            height: 600px;
+          }
+        }
+       
 
     </style>
 
@@ -140,28 +147,28 @@
                 <div class="container">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./IMG_E3375.JPG" class="d-block w-100" style="height: 600px; " alt="...">
+                        <img src="./IMG_E3375.JPG" class="d-block w-100 img-fluid" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./IMG_E3376.JPG" class="d-block w-100" style="height: 600px; "  alt="...">
+                        <img src="./IMG_E3376.JPG" class="d-block w-100 img-fluid"  alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./IMG_E3377.JPG" class="d-block w-100" style="height: 600px; "  alt="...">
+                        <img src="./IMG_E3377.JPG" class="d-block w-100 img-fluid"   alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./IMG_E3378.JPG" class="d-block w-100" style="height: 600px; "  alt="...">
+                        <img src="./IMG_E3378.JPG" class="d-block w-100 img-fluid"  alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./IMG_E3379.JPG" class="d-block w-100" style="height: 600px; "  alt="...">
+                        <img src="./IMG_E3379.JPG" class="d-block w-100 img-fluid"   alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./IMG_E3380.JPG" class="d-block w-100" style="height: 600px; "  alt="...">
+                        <img src="./IMG_E3380.JPG" class="d-block w-100 img-fluid"  alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./IMG_E3381.JPG" class="d-block w-100" style="height: 600px; "  alt="...">
+                        <img src="./IMG_E3381.JPG" class="d-block w-100 img-fluid"  alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./IMG_E3382.JPG" class="d-block w-100" style="height: 600px; "  alt="...">
+                        <img src="./IMG_E3382.JPG" class="d-block w-100 img-fluid"   alt="...">
                     </div>
                     </div>
                 </div>
@@ -177,7 +184,7 @@
             <h1 class="text-center txt bg-warning" id="sdgs">SDGs</h1>
             <div class="card-1">
                 
-                <div class="card border border-success" style="width: 18rem;">
+                <div class="card border div-b border-success mb-5" style="width: 18rem;">
                     <img src="./photo5828094454454662794.jpg" class="card-img-top" alt="...">
                     <div class="card-body ">
                         <h1 class="text-success">SDGs Workshop</h1>
@@ -188,7 +195,7 @@
 
                     </div>
                 </div>
-                <div class="card border border-danger" style="width: 18rem;">
+                <div class="card border div-b border-danger mb-5" style="width: 18rem;">
                     <img src="./photo5828094454454662795.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h1 class="text-danger">SDGs Conference</h1>
@@ -197,7 +204,7 @@
                         <a href="https://www.instagram.com/p/CDJ3FlqFf0d/" class="btn btn-outline-info">More</a>
                     </div>
                 </div>
-                <div class="card border border-info" style="width: 18rem;">
+                <div class="card border div-b border-info mb-5" style="width: 18rem;">
                     <img src="./photo5828094454454662796.jpg" class="card-img-top" alt="...">
                     <div class="card-body ">
                         <h1 class="text-info">SDGs Caravan</h1>
@@ -225,7 +232,7 @@
                   <div class="card border-0">
                     <img src="./c93ad1538753e96aa7a99de8b058ed60.jpg" class="rounded-circle border border-info" alt="...">
                     <div class="card-body">
-                      <h6 class="card-title">Nada Skali Senhaji</h6>
+                      <h6 class="card-title">Marwan Azzouz</h6>
                     </div>
                   </div>
                 </div>
@@ -233,7 +240,7 @@
                   <div class="card border-0">
                     <img src="./c93ad1538753e96aa7a99de8b058ed60.jpg" class="rounded-circle border border-danger" alt="...">
                     <div class="card-body">
-                      <h6 class="card-title">Marwan Benazzouz</h6>
+                      <h6 class="card-title">Nada Skali Senhaji</h6>
                     </div>
                   </div>
                 </div>
@@ -262,11 +269,11 @@
             </div>
 
         </div>
-        <h1 class="text-center txt bg-warning" id="contact1">Contact</h1>
-        <div class="contact text-center">
+        <h1 class="text-center txt bg-warning " id="contact1">Contact</h1>
+        <div class="contact text-center ">
             <h1 class="insta mb-5">Join Our Community </h1>
             <a href="https://www.instagram.com/youthadchange/" class="fa fa-instagram mb-3" style="font-size:70px;color:rgb(214, 12, 73);"></a><br>
-            <a href="https://www.instagram.com/youthadchange/">@Youthadchange</a>
+            <a href="https://www.instagram.com/youthadchange/" >@Youthadchange</a>
 
             
         </div>
